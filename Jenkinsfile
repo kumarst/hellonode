@@ -29,7 +29,7 @@ node {
          * Second, the 'latest' tag.
          * Pushing multiple tags is cheap, as all the layers are reused. */
         docker.withRegistry('https://hub.docker.com/', 'docker-hub-credentials') {
-                        app.push("kumarst/hellonode")
+                        app.push("701daf4769db")
         }
     }
 }
