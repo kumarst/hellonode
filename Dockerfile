@@ -1,7 +1,7 @@
 # This is a sample image
 FROM ubuntu
 MAINTAINER kumarstaffings1@gmail.com
-RUN apt-get  install –y nginx
+RUN apt-get  install  nginx -y
 CMD [“echo”, ”Image created”]
 
 
