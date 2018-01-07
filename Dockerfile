@@ -1,7 +1,7 @@
 # This is a sample image
 FROM ubuntu
 MAINTAINER kumarstaffings1@gmail.com
-RUN apt-get  install –y httpd
+RUN apt-get  install –y apache2
 CMD [“echo”, ”Image created”]
 
 
